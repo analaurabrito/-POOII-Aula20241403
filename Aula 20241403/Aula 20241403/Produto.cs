@@ -9,12 +9,12 @@ namespace Aula_20241403
     internal class Produto
     {
         public string nome;
-        public double preço;
+        public double preco;
 
-        public Produto(string nome, double preço)
+        public Produto(string nome, double preco)
         {
             this.nome = nome;
-            this.preço = preço;
+            this.preco = preco;
         }
     }
 }

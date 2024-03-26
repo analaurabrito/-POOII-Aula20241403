@@ -1,0 +1,7 @@
+C:\Users\anala\Downloads\Aula 20241403\Aula 20241403\bin\Debug\Aula 20241403.exe.config
+C:\Users\anala\Downloads\Aula 20241403\Aula 20241403\bin\Debug\Aula 20241403.exe
+C:\Users\anala\Downloads\Aula 20241403\Aula 20241403\bin\Debug\Aula 20241403.pdb
+C:\Users\anala\Downloads\Aula 20241403\Aula 20241403\obj\Debug\Aula 20241403.csproj.AssemblyReference.cache
+C:\Users\anala\Downloads\Aula 20241403\Aula 20241403\obj\Debug\Aula 20241403.csproj.CoreCompileInputs.cache
+C:\Users\anala\Downloads\Aula 20241403\Aula 20241403\obj\Debug\Aula 20241403.exe
+C:\Users\anala\Downloads\Aula 20241403\Aula 20241403\obj\Debug\Aula 20241403.pdb

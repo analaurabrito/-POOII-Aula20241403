@@ -8,13 +8,12 @@ namespace Aula_20241403
 {
     internal class Pedido
     {
-        public List<Item> listaItems;
+        public List<Item> listaItems = new List<Item>();
         public double valorTotal;
 
-        public Pedido(Produto produto, int quantidade)
+        public Pedido()
         {
-            Item i = new Item(produto, quantidade);
-            listaItems.Add(i);
+
         }
 
         public void addItem(Produto produto, int quantidade)
@@ -23,14 +22,29 @@ namespace Aula_20241403
             listaItems.Add(i);
         }
 
-        public void calculoTotal(List<Item> listaItems, double valorTotal)
+        public void addItem(Produto produto, int quantidade, double desconto)
+        {
+            Item i = new Item(produto, quantidade, desconto);
+            listaItems.Add(i);
+        }
+
+        public double calculoTotal()
         {
             foreach (Item i in listaItems)
             {
                 valorTotal += i.valor;
             }
+            return valorTotal;
+        }
 
-            this.valorTotal = valorTotal;
+        public void imprimirItens()
+        {
+            foreach (Item i in listaItems)
+            {
+                Console.WriteLine(i.produto.nome + ": " + i.produto.preco);
+            }
+
+            Console.WriteLine("Total: " +calculoTotal());
         }
 
     }

@@ -17,16 +17,20 @@ namespace Aula_20241403
         {
             this.produto = produto;
             this.quantidade = quantidade;
+            this.desconto = 0;
+        }
+        
+        public Item(Produto produto, int quantidade, double desconto)
+        {
+            this.produto = produto;
+            this.quantidade = quantidade;
+            this.desconto = desconto;
         }
 
-        public void valorItem(Produto produto, int quantidade)
+        public double totalValor()
         {
-            this.valor = quantidade * produto.preço;
-        }
-
-        public void totalDesconto(Produto produto, double valor, double desconto)
-        {
-            this.valor = (valor) * desconto;
+            valor = (quantidade * valor) - (valor * desconto);
+            return this.valor;
         }
     }
 }
